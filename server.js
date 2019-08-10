@@ -10,10 +10,6 @@ app.use(express.static('public'));
 
 
 app.get('/', function (req, res) {
-  res.render("client");
-});
-
-app.get('/index', function (req, res) {
 
   var data = [ // todo: save as json?
     {
