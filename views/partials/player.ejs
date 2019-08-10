@@ -1,0 +1,14 @@
+<script src="player-bundle.js"></script>
+
+<div class="w3-third borderedTrack">
+  <p><b><%= data.name %><b></p>
+
+  <div>
+  <img src="<%= data.image %>" class="w3-round w3-margin-bottom" alt=" <%= data.name %>" style="width:60%">
+  </div>
+  <button class="playbutton" onclick="play('<%= data.url %>')">Play</button>
+  <button class="pausebutton"onclick="pause()">Pause</button>
+
+
+
+</div>
